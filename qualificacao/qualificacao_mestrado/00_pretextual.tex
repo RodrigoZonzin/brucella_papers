@@ -1,0 +1,99 @@
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
+%
+% \includepdf{folhadeaprovacao_final.pdf}
+%
+\begin{folhadeaprovacao}
+
+  \begin{center}
+    {\ABNTEXchapterfont\large\imprimirautor}
+
+    \vspace*{\fill}\vspace*{\fill}
+    {\ABNTEXchapterfont\bfseries\Large\imprimirtitulo}
+    \vspace*{\fill}
+    
+    \hspace{.45\textwidth}
+    \begin{minipage}{.5\textwidth}
+        \imprimirpreambulo
+    \end{minipage}%
+    \vspace*{\fill}
+   \end{center}
+    
+   Trabalho aprovado. \imprimirlocal, 26 de setembro de 2025:
+   % Caso prefira fixar a data, basta mudar o comando \today pela data,
+   %   como no exemplo abaixo:
+   %Trabalho aprovado. \imprimirlocal, 7 de setembro de 1822:
+
+   \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
+   \assinatura{\textbf{Michelli Marlane Silva Loureiro} \\ Convidado 1}
+   \assinatura{\textbf{Rafael Sachetto Oliveira} \\ Convidado 2}
+   %\assinatura{\textbf{Professor} \\ Convidado 3}
+   %\assinatura{\textbf{Professor} \\ Convidado 4}
+      
+   \begin{center}
+    \vspace*{0.5cm}
+    {\large\imprimirlocal}
+    \par
+    {\large\imprimirdata}
+    \vspace*{1cm}
+  \end{center}
+  
+\end{folhadeaprovacao}
+
+% ---------------------------------------------------------------------------------------------
+% ---------------------------------------------------------------------------------Dedicatória-
+% ---------------------------------------------------------------------------------------------
+\begin{dedicatoria}
+	\vspace*{\fill}
+	\centering
+	\noindent
+	\textit{ À minha avó, Anézia Josefina Grissi Zonzin} \vspace*{\fill}
+\end{dedicatoria}
+
+% ---------------------------------------------------------------------------------------------
+% ------------------------------------------------------------------------------Agradecimentos-
+% ---------------------------------------------------------------------------------------------
+\begin{agradecimentos}
+
+\end{agradecimentos}
+
+% ---------------------------------------------------------------------------------------------
+% ------------------------------------------------------------------------------------Epígrafe-
+% ---------------------------------------------------------------------------------------------
+%\begin{epigrafe}
+%	\vspace*{\fill}
+%	\begin{flushright}
+%		\textit{bla bla bla bla bla\\
+%			-- Taylor Swift, em bla bla bla}
+%	\end{flushright}
+%\end{epigrafe}
+% ---
+
+% ---------------------------------------------------------------------------------------------
+% -------------------------------------------------------------------------resumo em português-
+% ---------------------------------------------------------------------------------------------
+\begin{resumo}
+        A Diabetes Tipo 1 (T1D) é uma doença autoimune onde as células T efetoras matam as células $\beta$ pancreáticas. Os mecanismos patológicos ainda não são completamente conhecidos, mas já se sabe que a falha na atuação das células T regulatórias (TRegs) é um dos fatores para o desenvolvimento da T1D.
+        Além disso, estudos demonstram uma incidência crescente da T1D no mundo e no Brasil, e esforços terapêuticos alternativos à insulina têm sido explorados, como foco nas TRegs. Este trabalho propõe um modelo de Equações Diferenciais Ordinárias (EDOs) para a simulação computacional dos principais quadros clínicos da T1D. Para a resolução do sistema de EDOs utilizou-se o método Runge-Kutta de 4ª ordem. Os resultados mostram que o modelo reproduziu adequadamente os principais cenários de evolução da doença, como homeostase, autoimunidade, atenuação da doença, regulação imune e imunoterapia. Entre as limitações está a dinâmica relacionada à população de células $\beta$ e a não validação do modelo para dados experimentais. Trabalhos futuros podem aperfeiçoar a modelagem proposta, incluir novas populações e agrupar modelos de outros fenômenos e em diferentes escalas imunológicas. 
+	
+	\vspace{\onelineskip}
+	
+	\noindent
+	\textbf{Palavras-chaves}: diabetes tipo 1. modelo computacional. regulação imunológica .
+\end{resumo}
+
+% ---------------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------resumo em inglês-
+% ---------------------------------------------------------------------------------------------
+\begin{resumo}[Abstract]
+	\begin{otherlanguage*}{english}
+		Type 1 Diabetes (T1D) is an autoimmune disease in which pathogenic T cells destroy pancreatic $\beta$ cells. The pathological mechanisms are not yet fully understood, but it is known that the failure of regulatory T cells (TRegs) is one of main the factors contributing to the development of T1D. Studies have shown an increasing incidence of T1D worldwide and in Brazil, and therapeutic approaches alternative to insulin have been explored, focusing specially on TRegs. This work proposes an Ordinary Differential Equations (ODEs) model for the computational simulation of the main clinical conditions on T1D. The system of ODEs was solved using the 4th-order Runge-Kutta method. The results show that the model adequately reproduced the main scenarios of disease progression, such as homeostasis, autoimmunity, disease attenuation, immune regulation, and immunotherapy. Among the limitations are the dynamics related to the $\beta$ cells  and the lack of model validation with experimental data. Future work may improve the proposed modeling, include new populations, and integrate models of other immunological phenomena and at  different scales.
+		
+		\vspace{\onelineskip}
+		
+		\noindent 
+		\textbf{Key-words}: type 1 diabetes. computational modeling. immune response.
+	\end{otherlanguage*}
+\end{resumo}
